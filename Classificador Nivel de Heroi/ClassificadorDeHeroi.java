@@ -50,6 +50,8 @@ public class ClassificadorDeHeroi {
             nivel = "Imortal";
         } else if (xpDoHeroi >= 10001) {
             nivel = "Radiante";
+        }else{
+            nivel = "Nenhum";
         }
         
         System.out.println("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivel);
